@@ -4,4 +4,5 @@ ON m.musica_id = h.musica_id
 INNER JOIN SpotifyClone.users u
 ON u.user_id = h.user_id
 WHERE plano_id IN (1,2)
-GROUP BY musica_nome;
+GROUP BY musica_nome
+ORDER BY nome;
