@@ -5,4 +5,5 @@ END ) AS condicao_usuario
 FROM SpotifyClone.users u
 INNER JOIN SpotifyClone.historico_reproducoes h
 ON u.user_id = h.user_id
-GROUP BY user_nome;
+GROUP BY user_nome
+ORDER BY user_nome;
