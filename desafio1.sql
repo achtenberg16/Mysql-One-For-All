@@ -57,9 +57,9 @@ CREATE TABLE SpotifyClone.historico_reproducoes (
 
 INSERT INTO SpotifyClone.planos(nome, valor)
 VALUE('Gratuito', 0),
-('Pessoal', 7.99),
+('Pessoal', 6.99),
 ('Universitario', 5.99),
-('Familiar', 6.99);
+('Familiar', 7.99);
 
 INSERT INTO SpotifyClone.artistas (artista_nome)
 VALUES ('Walter Phoenix'),
